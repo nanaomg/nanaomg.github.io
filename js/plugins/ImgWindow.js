@@ -1,0 +1,1 @@
+  Window_Base.prototype.drawPicture = function(gameover, x, y) {    var bitmap = ImageManager.loadPicture(gameover);    this.contents.blt(bitmap, 0, 0, bitmap._canvas.width, bitmap._canvas.height, 100, 100);  };
